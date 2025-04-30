@@ -24,7 +24,7 @@ export const enable = "#_fingers_crossed";
 
 /**
  * Create a Fingers-Crossed log stream.
- * @param {ReturnType<import('pino').transport>|import('pino').DestinationStream|ReturnType<import('pino').destination>|undefined} transport
+ * @param {ReturnType<import('pino').transport>|import('pino').DestinationStream|ReturnType<import('pino').destination>|undefined} [transport]
  * @return {import('pino').DestinationStreamWithMetadata & PassThroughStream}
  * @public
  */

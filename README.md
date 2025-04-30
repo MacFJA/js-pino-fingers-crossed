@@ -75,6 +75,10 @@ great_child.warn('Will appear immedialty') // warn log are level 40
 great_child.info('Will NOT appear')
 ```
 
+More examples:
+ - [With Fastify](./doc/Fastify.md)
+ - [With Express 4.x](./doc/Express4.md)
+
 ## Memory
 
 The message of a Logger is keep in memory (if the `[enable]` binding is defined) until the trigger is reach.
